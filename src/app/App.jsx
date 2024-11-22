@@ -3,11 +3,17 @@ import { FiSearch } from "react-icons/fi";
 import './App.css'
 
 import api from "./api/api";
+import config from "./config";
 
 function App() {
   const [input, setInput] = useState('');
   const [city, setCity] = useState({});
-  const apiKey = '7a580fdbbb7bcfcf82086f2b89247a45';
+  
+
+const apiKey = config.apiKey;
+
+console.log(apiKey);
+
 
   const capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
