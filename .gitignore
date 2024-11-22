@@ -25,4 +25,4 @@ dist-ssr
 
 # Ignorar arquivos de ambiente
 .env
-src/api/config.js
+config.js
