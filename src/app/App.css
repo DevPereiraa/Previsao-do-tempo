@@ -1,0 +1,92 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #FFF;
+    background-color: #000;
+    background: url(https://images.unsplash.com/photo-1579003593419-98f949b9398f?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
+    background-size: cover;
+}
+
+.secundaryContainer{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 16px;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 450px;
+}
+
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 0px;
+}
+
+.searchContainer input{
+    background-color: rgb(0, 0, 0, 0.8);
+    outline: none;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #FFF;
+    width: 95%;
+    max-width: 450px;
+}
+
+.searchContainer button{
+    background-color: rgb(0, 0, 0, 0.8);
+    outline: none;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.city{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.city h2{
+    font-size: 26px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 450px;
+}
+
+.city p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h1{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 16px;
+    opacity: 0.8;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+p{
+    display: flex;
+    align-items: center;
+
+}
+
+span{
+    size: 10px;
+}
