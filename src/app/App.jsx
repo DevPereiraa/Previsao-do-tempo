@@ -12,8 +12,6 @@ function App() {
 
 const apiKey = config.apiKey;
 
-console.log(apiKey);
-
 
   const capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
